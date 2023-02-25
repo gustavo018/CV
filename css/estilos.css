@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contacto {
+    background-image: url(../images/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#proyectos {
+    background-image: url(../images/fondo-proyectos.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#sobre-mi {
+    background-image: url(../images/fondo-proyectos.png);
+}
+
+#inicio {
+    background-image: url(../images/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1 {
+    color: #E20000;
+    font-size: 36px;
+}
+p {
+    color: #6a6a6a;
+    font-size: 16px;
+}
+
+.form-control {
+    border-radius: 14px;
+}
+
+.btn-blanco {
+    background-color: white;
+    color: #370a6d;
+}
+
+.btn-blanco:hover {
+    color: white;
+    background-color: #370a6d;
+}
+
+.btn-rojo {
+    background-color: #E20000;
+    color: white !important
+}
+
+.bt {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.550rem 0.25rem;
+    text-decoration: none;
+}
+
+.bt:hover {
+    background-color: #370a6d;
+    color: white
+}
+
+.btn {
+    border-radius: 14px;
+}
+
+.btn-rojo:hover {
+    color: white;
+    background-color: #370a6d;
+    font-weight: 100;
+}
+
+.contacto footer .col-12 {
+    width: 26%;
+}
+
+.inicio .col-12 {
+    background-color: white;
+}
+
+.row {
+    --bs-gutter-x: 0.0rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+}
+
+.card {
+    position: initial;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.15rem;
+}
+
+textarea {
+    height: 150px;
+}
+
+footer a {
+    color: white;
+}
+
+footer .col-12 {
+    color: white;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 70px;
+    background-color: #370a6d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom: 0px;
+}
+
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fa-whatsapp {
+    font-size: 32px;
+    color: white;
+}
+
+footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+nav .active {
+    border: 1px solid #E20000;
+    border-radius: 25px;
+}
+
+nav .nav-link {
+    color: #282828;
+}
+.proyecto h2 {
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #E20000;
+}
+
+.proyecto p {
+    font-size: 14px;
+}
+
+.proyecto {
+    border: 1px solid #eee;
+    background-color: white;
+}
+
+.proyecto a {
+    color: #E20000;
+    text-decoration: none;
+}
+
+.proyecto img {
+    height: 208px;
+}
+
+#proyectos .card p {
+    height: 99px
+}
+
+#proyectos footer,
+#proyectos footer a,
+#sobre-mi footer,
+#sobre-mi footer a {
+    color: #E20000
+}
+
+#inicio footer .fa-github,
+#contacto footer .fa-github,
+#proyectos footer .fa-github,
+#sobre-mi footer .fa-github {
+    font-size: 30px;
+    color: #E20000;
+}
+
+#contacto footer .fa-linkedin-in,
+#proyectos footer .fa-linkedin-in {
+    color: white;
+    background-color: #E20000;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+.sobre-mi .py-5{
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+.p-1 {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+@media (max-width: 550px) {
+
+    #inicio,
+    #contaco {
+        background-image: url(../images/fondo-proyectos.png);
+        background: repeat no-repeat;
+        background-size: 100pc;
+    }
+
+    #inicio .input-home p {
+        color: #E20000;
+        border: 1px solid #E20000;
+
+
+    }
+}
